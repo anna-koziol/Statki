@@ -1,0 +1,108 @@
+body, .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#gamefield1, #gamefield2 {
+    width: 33vw;
+    height: 33vw;
+    display: inline-block;
+}
+
+.section {
+    float: left;
+    width: 8%;
+    height: 8%;
+    border: 1px solid black;
+    margin: 1px;
+    color: orangered;
+    font-weight: bolder;
+    font-size: 120%;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.section:nth-child(10n+1) {
+    clear: both;
+}
+
+.gamefields {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 5px;
+}
+
+.shipContainer {
+    width: 15vw;
+    height: 3vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#shipsPanel {
+    margin-right: 5vw;
+}
+
+.sectionUser {
+    background-color: #083854;
+    width: 2vw;
+    height: 2vw;
+    margin: 1px;
+    border-radius: 2px;
+}
+
+.sectionUserHover {
+    background-color: #E8AC17;
+    width: 2vw;
+    height: 2vw;
+    margin: 1px;
+    border-radius: 2px;
+}
+
+.sectionUserCheck {
+    background-color: #F27A18;
+    width: 2vw;
+    height: 2vw;
+    margin: 1px;
+    border-radius: 2px;
+}
+
+.columns {
+    margin: 2%;
+}
+
+#pc {
+    display: none;
+}
+
+#clock, #startPanel {
+    background-color: rgba(0, 0, 0, 0.92);
+    width: 100vw;
+    height: 100vh;
+    color: #F27A18;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+img {
+    width: 20vw;
+    height: auto;
+}
+
+
+#punkts {
+    margin-top: 0;
+}
+
